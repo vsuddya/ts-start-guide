@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "debug": "tsc && node --inspect-brk index.js && rm index.js"
   },
   "keywords": [],
   "author": "",

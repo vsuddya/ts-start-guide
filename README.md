@@ -34,6 +34,23 @@ npx ts-jest config:init
 npm test
 ```
 
+7. For CLI - Modify ***package.json***
+```
+{
+    "bin": {
+        "tsg": "index.js"
+    }
+}
+```
+
+8. To install (uninstall) CLI globally use
+```
+npm install -g .
+npm list -g
+npm uninstall -g tsg
+```
+
+
 Usefull links
 + https://www.npmjs.com/package/ts-jest
 + https://jestjs.io/docs/getting-started

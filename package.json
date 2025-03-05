@@ -1,8 +1,11 @@
 {
-  "name": "jest",
+  "name": "tsg",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "tsg": "index.js"
+  },
   "scripts": {
     "test": "jest",
     "debug": "tsc && node --inspect-brk index.js && rm index.js"
@@ -11,7 +14,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/figlet": "^1.7.0",
     "@types/jest": "^29.5.4",
     "ts-jest": "^29.1.1"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0"
   }
 }

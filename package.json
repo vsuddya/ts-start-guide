@@ -1,6 +1,6 @@
 {
   "name": "vsuddya",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -10,9 +10,11 @@
     "test": "jest",
     "debug": "tsc && node --inspect-brk index.js && rm index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["cli", "typescript", "start guide"],
+  "author": "Vasyl Suddya",
   "license": "ISC",
+  "repository": "https://github.com/vsuddya/ts-start-guide",
+  "homepage": "https://github.com/vsuddya/ts-start-guide/blob/master/README.md",
   "devDependencies": {
     "@types/figlet": "^1.7.0",
     "@types/jest": "^29.5.4",

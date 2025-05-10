@@ -38,18 +38,25 @@ npm test
 ```
 {
     "bin": {
-        "tsg": "index.js"
+        "vsuddya": "index.js"
     }
 }
 ```
 
 8. To install (uninstall) CLI globally use
 ```
-npm install -g .
+npm install -g vsuddya
 npm list -g
-npm uninstall -g tsg
+npm uninstall -g vsuddya
 ```
 
+9. Run CLI
+```
+vsuddya --version
+vsuddya -V
+vsuddya -h
+vsuddya -ls
+```
 
 Usefull links
 + https://www.npmjs.com/package/ts-jest
